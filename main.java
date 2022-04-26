@@ -40,7 +40,7 @@ public class Main {
 
         double totalPrice;
         totalPrice = calcPrice(appleWeight,strawberryWeight,mangoWeight);
-        System.out.println("The total price of fruits is "+totalPrice);
+        System.out.println("The total price of fruits is " + totalPrice);
 
         verifyResult();
     }
@@ -70,6 +70,7 @@ public class Main {
     }
 
     public static void verifyResult(){
+
         int tempApple = 10;
         int tempStrawberry = 10;
         int tempMango = 10;
